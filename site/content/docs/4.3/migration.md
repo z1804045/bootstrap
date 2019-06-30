@@ -87,6 +87,10 @@ Badges were overhauled to better differentiate themselves from buttons and to be
 - **Todo:** Removed `.badge-pill` for the `.rounded-pill` utility class
 - **Todo:** Removed badge's hover and focus styles for `a.badge` and `button.badge`.
 
+### Cards
+
+- Removed the card columns in favor of a Masonry grid [See #28922](https://github.com/twbs/bootstrap/pull/28922).
+
 ### Jumbotron
 
 - The jumbotron component is removed in favor of utility classes like `.bg-light` for the background color and `.p-*` classes to control padding.
