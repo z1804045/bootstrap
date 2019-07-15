@@ -52,7 +52,8 @@ Changes to any layout tools and our grid system.
 
 Changes to Reboot, typography, tables, and more.
 
-- **Todo:** Make RFS enabled by default
+- [RFS](https://github.com/twbs/rfs) enabled for automated font size rescaling.
+- Dropped `.small` in favor of `.text-sm`
 - Reset default horizontal `padding` on `<ul>` and `<ol>` elements from browser default `40px` to `2rem`.
 
 ## Forms
