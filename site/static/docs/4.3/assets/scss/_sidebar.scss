@@ -1,9 +1,5 @@
 // stylelint-disable declaration-no-important
 
-.bd-sidebar {
-  order: 0;
-}
-
 .bd-links {
   @include media-breakpoint-up(md) {
     @supports (position: sticky) {
@@ -11,11 +7,6 @@
       top: 5rem;
       z-index: 1000;
     }
-  }
-
-  // Override collapse behaviors
-  @include media-breakpoint-up(md) {
-    display: block !important;
   }
 }
 
@@ -26,11 +17,6 @@
     border-color: $bd-purple-bright;
     box-shadow: 0 0 0 3px rgba($bd-purple-bright, .25);
   }
-}
-
-.bd-search-docs-toggle {
-  line-height: 1;
-  color: $gray-900;
 }
 
 .bd-sidenav-group-link {
